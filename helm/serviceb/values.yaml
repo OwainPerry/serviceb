@@ -3,10 +3,10 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
-
+version: v1
 image:
   repository: owainperry/serviceb
-  tag: release-2.1
+  tag: release-1.0
   pullPolicy: IfNotPresent
 
 nameOverride: ""
