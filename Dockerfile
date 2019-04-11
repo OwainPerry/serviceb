@@ -9,4 +9,5 @@ RUN go build -o /app/serviceb .
 
 FROM alpine:3.9
 COPY --from=builder /app/serviceb /serviceb
+EXPOSE 8080
 CMD ["/serviceb"]
